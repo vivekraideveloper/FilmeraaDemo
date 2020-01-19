@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		807C515723C5A3670051A498 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C515623C5A3670051A498 /* AppDelegate.swift */; };
 		807C515923C5A3670051A498 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C515823C5A3670051A498 /* SceneDelegate.swift */; };
-		807C515B23C5A3670051A498 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C515A23C5A3670051A498 /* ViewController.swift */; };
+		807C515B23C5A3670051A498 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C515A23C5A3670051A498 /* HomeVC.swift */; };
 		807C515E23C5A3670051A498 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807C515C23C5A3670051A498 /* Main.storyboard */; };
 		807C516023C5A3720051A498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807C515F23C5A3720051A498 /* Assets.xcassets */; };
 		807C516323C5A3720051A498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807C516123C5A3720051A498 /* LaunchScreen.storyboard */; };
+		807C516F23C5A6000051A498 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C516E23C5A6000051A498 /* Extensions.swift */; };
+		807C519123C73F440051A498 /* FeaturetteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C519023C73F440051A498 /* FeaturetteCollectionViewCell.swift */; };
+		807C519323C7561A0051A498 /* FeatureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C519223C7561A0051A498 /* FeatureCollectionViewCell.swift */; };
+		807C519523C759F30051A498 /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C519423C759F30051A498 /* MusicCollectionViewCell.swift */; };
+		807C519723C75A1A0051A498 /* ShortCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C519623C75A1A0051A498 /* ShortCollectionViewCell.swift */; };
+		807C519923C75A290051A498 /* SeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C519823C75A290051A498 /* SeriesCollectionViewCell.swift */; };
+		807C519B23C76F1A0051A498 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 807C519A23C76F1A0051A498 /* GoogleService-Info.plist */; };
+		807C519D23C775970051A498 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C519C23C775970051A498 /* DataModel.swift */; };
+		807C519F23C7A15D0051A498 /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C519E23C7A15D0051A498 /* ContentVC.swift */; };
+		807C51A123CCEF090051A498 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C51A023CCEF090051A498 /* SearchVC.swift */; };
+		807C51A323CCFD350051A498 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807C51A223CCFD350051A498 /* SearchCell.swift */; };
+		DF7126693E5CE671594C1EF0 /* Pods_Filemraa_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E168131363AFBE8E899C99 /* Pods_Filemraa_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7751D55B3FFFD6205B554006 /* Pods-Filemraa Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Filemraa Demo.debug.xcconfig"; path = "Target Support Files/Pods-Filemraa Demo/Pods-Filemraa Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		807C515323C5A3670051A498 /* Filemraa Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Filemraa Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		807C515623C5A3670051A498 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		807C515823C5A3670051A498 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		807C515A23C5A3670051A498 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		807C515A23C5A3670051A498 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		807C515D23C5A3670051A498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		807C515F23C5A3720051A498 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		807C516223C5A3720051A498 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		807C516423C5A3720051A498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807C516E23C5A6000051A498 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		807C519023C73F440051A498 /* FeaturetteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturetteCollectionViewCell.swift; sourceTree = "<group>"; };
+		807C519223C7561A0051A498 /* FeatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCollectionViewCell.swift; sourceTree = "<group>"; };
+		807C519423C759F30051A498 /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		807C519623C75A1A0051A498 /* ShortCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortCollectionViewCell.swift; sourceTree = "<group>"; };
+		807C519823C75A290051A498 /* SeriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		807C519A23C76F1A0051A498 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		807C519C23C775970051A498 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		807C519E23C7A15D0051A498 /* ContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVC.swift; sourceTree = "<group>"; };
+		807C51A023CCEF090051A498 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		807C51A223CCFD350051A498 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		B3E168131363AFBE8E899C99 /* Pods_Filemraa_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Filemraa_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29954F8CD6B25CA68213E89 /* Pods-Filemraa Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Filemraa Demo.release.xcconfig"; path = "Target Support Files/Pods-Filemraa Demo/Pods-Filemraa Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7126693E5CE671594C1EF0 /* Pods_Filemraa_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55865BF87E1656D85E449CE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7751D55B3FFFD6205B554006 /* Pods-Filemraa Demo.debug.xcconfig */,
+				D29954F8CD6B25CA68213E89 /* Pods-Filemraa Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6091613F7EB44A242460EE06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3E168131363AFBE8E899C99 /* Pods_Filemraa_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		807C514A23C5A3670051A498 = {
 			isa = PBXGroup;
 			children = (
 				807C515523C5A3670051A498 /* Filemraa Demo */,
 				807C515423C5A3670051A498 /* Products */,
+				55865BF87E1656D85E449CE3 /* Pods */,
+				6091613F7EB44A242460EE06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,58 @@
 		807C515523C5A3670051A498 /* Filemraa Demo */ = {
 			isa = PBXGroup;
 			children = (
+				807C516D23C5A3D30051A498 /* Utils */,
+				807C516C23C5A3C30051A498 /* Model */,
+				807C516B23C5A3BD0051A498 /* View */,
+				807C516A23C5A3B50051A498 /* Controller */,
 				807C515623C5A3670051A498 /* AppDelegate.swift */,
 				807C515823C5A3670051A498 /* SceneDelegate.swift */,
-				807C515A23C5A3670051A498 /* ViewController.swift */,
 				807C515C23C5A3670051A498 /* Main.storyboard */,
+				807C519A23C76F1A0051A498 /* GoogleService-Info.plist */,
 				807C515F23C5A3720051A498 /* Assets.xcassets */,
 				807C516123C5A3720051A498 /* LaunchScreen.storyboard */,
 				807C516423C5A3720051A498 /* Info.plist */,
 			);
 			path = "Filemraa Demo";
+			sourceTree = "<group>";
+		};
+		807C516A23C5A3B50051A498 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				807C515A23C5A3670051A498 /* HomeVC.swift */,
+				807C519E23C7A15D0051A498 /* ContentVC.swift */,
+				807C51A023CCEF090051A498 /* SearchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		807C516B23C5A3BD0051A498 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				807C519023C73F440051A498 /* FeaturetteCollectionViewCell.swift */,
+				807C519223C7561A0051A498 /* FeatureCollectionViewCell.swift */,
+				807C519423C759F30051A498 /* MusicCollectionViewCell.swift */,
+				807C519623C75A1A0051A498 /* ShortCollectionViewCell.swift */,
+				807C519823C75A290051A498 /* SeriesCollectionViewCell.swift */,
+				807C51A223CCFD350051A498 /* SearchCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		807C516C23C5A3C30051A498 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				807C519C23C775970051A498 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		807C516D23C5A3D30051A498 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				807C516E23C5A6000051A498 /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 807C516723C5A3720051A498 /* Build configuration list for PBXNativeTarget "Filemraa Demo" */;
 			buildPhases = (
+				C6ADA9E57EAB19E27A88951D /* [CP] Check Pods Manifest.lock */,
 				807C514F23C5A3670051A498 /* Sources */,
 				807C515023C5A3670051A498 /* Frameworks */,
 				807C515123C5A3670051A498 /* Resources */,
+				75D09870BA53B50D807AE688 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				807C516323C5A3720051A498 /* LaunchScreen.storyboard in Resources */,
+				807C519B23C76F1A0051A498 /* GoogleService-Info.plist in Resources */,
 				807C516023C5A3720051A498 /* Assets.xcassets in Resources */,
 				807C515E23C5A3670051A498 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +225,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75D09870BA53B50D807AE688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Filemraa Demo/Pods-Filemraa Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Filemraa Demo/Pods-Filemraa Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Filemraa Demo/Pods-Filemraa Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6ADA9E57EAB19E27A88951D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Filemraa Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		807C514F23C5A3670051A498 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				807C515B23C5A3670051A498 /* ViewController.swift in Sources */,
+				807C51A323CCFD350051A498 /* SearchCell.swift in Sources */,
+				807C51A123CCEF090051A498 /* SearchVC.swift in Sources */,
+				807C519F23C7A15D0051A498 /* ContentVC.swift in Sources */,
+				807C515B23C5A3670051A498 /* HomeVC.swift in Sources */,
+				807C519123C73F440051A498 /* FeaturetteCollectionViewCell.swift in Sources */,
 				807C515723C5A3670051A498 /* AppDelegate.swift in Sources */,
 				807C515923C5A3670051A498 /* SceneDelegate.swift in Sources */,
+				807C519523C759F30051A498 /* MusicCollectionViewCell.swift in Sources */,
+				807C519D23C775970051A498 /* DataModel.swift in Sources */,
+				807C516F23C5A6000051A498 /* Extensions.swift in Sources */,
+				807C519923C75A290051A498 /* SeriesCollectionViewCell.swift in Sources */,
+				807C519323C7561A0051A498 /* FeatureCollectionViewCell.swift in Sources */,
+				807C519723C75A1A0051A498 /* ShortCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,37 +426,39 @@
 		};
 		807C516823C5A3720051A498 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7751D55B3FFFD6205B554006 /* Pods-Filemraa Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X9VVW4ZPQS;
+				DEVELOPMENT_TEAM = 23K54FMMJZ;
 				INFOPLIST_FILE = "Filemraa Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vivekrai.filmeraademo.Filemraa-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivekrai.filmeraa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		807C516923C5A3720051A498 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29954F8CD6B25CA68213E89 /* Pods-Filemraa Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X9VVW4ZPQS;
+				DEVELOPMENT_TEAM = 23K54FMMJZ;
 				INFOPLIST_FILE = "Filemraa Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vivekrai.filmeraademo.Filemraa-Demo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivekrai.filmeraa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
